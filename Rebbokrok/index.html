@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เล็บบอกโรค</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="abnormal.css">
+    <link rel="stylesheet" href="rok.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="shortcut icon" href="img/nail icon.png" />
+    
+</head>
+
+<body>
+
+
+    <!-- หน้า nav -->
+
+    <header class="hearder">
+
+        <a href="#page1" class="logo">
+            <img src="img/logo8.png" width="150px" height="25px" alt="">
+        </a>
+
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+
+        <ul class="menu">
+            <li><a href="#page4">เล็บสุขภาพดี</a></li>
+            <li><a href="#page6">ลักษณะเล็บที่ผิดปกติ</a>
+            <li><a href="#rok">โรคเล็บที่พบบ่อย</a></li>
+        </ul>
+
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>   
+        
+    </header>
+
+    <div class="container">
+
+        <!-- หน้า intro -->
+
+        <div class="intro">
+            <img class="intro" src="img/Intro.gif" width="100%" height="100%" alt="">
+        </div>
+
+        <!-- หน้า page1 เกริ่น con1-->
+
+
+        <div class="page1" id="page1">
+
+            <div class="page1-motion">
+                <img class="page1-motion" src="img/page1-motion.gif" width="45%" height="45%" alt="">
+            </div>
+
+            <div class="page1-info">
+
+                <div  class="page1-title">
+                    <p>เพราะเรื่อง<span>เล็บ...เล็บ</span> <br> ไม่ได้<span>เล็ก</span>เสมอไป</p>
+                </div>
+
+                <div class="page1-content">
+                    <p>ปัญหาสุขภาพเล็บที่ใครหลายคนอาจมองข้ามจนลืมให้ความสำคัญ 
+                    <br>
+                    หากสุขภาพเล็บไม่ดี ก็สามารถบอกถึงปัญหาสุขภาพ 
+                    <br>
+                    ที่กำลังเกิดกับร่างกายของคุณได้</p>
+                </div>
+
+                <div class="page1-img">
+                        <img src="img/page1-img.png" width="40%" height="40%" alt="">                    
+                </div>
+
+            </div>
+        </div>
+
+
+
+                <!-- หน้า page2 slideshow -->
+
+        
+    
+
+
+        <div class="slideshow middle">
+
+            <div class="slides">
+                <input type="radio" name="r" id="r1" checked>
+                <input type="radio" name="r" id="r2">
+                <input type="radio" name="r" id="r3">
+                <input type="radio" name="r" id="r4">
+        
+                <div class="slide s1">
+                    <img src="img/1.png" width="100%" height="100%" alt="">
+                </div>
+        
+                <div class="slide">
+                    <img src="img/2.png" width="100%" height="100%" alt="">
+                </div>
+        
+                <div class="slide">
+                    <img src="img/3.png" width="100%" height="100%" alt="">
+                </div>
+    
+                <div class="slide">
+                    <img src="img/4.png" width="100%" height="100%" alt="">
+                </div>
+            </div>
+        
+            <div class="navigator-auto">
+                <div class="auto1"></div>
+                <div class="auto2"></div>
+                <div class="auto3"></div>
+                <div class="auto4"></div>
+            </div>
+        
+            <div class="navigation">
+                <label for="r1" class="bar"></label>
+                <label for="r2" class="bar"></label>
+                <label for="r3" class="bar"></label>
+                <label for="r4" class="bar"></label>
+            </div>
+        </div>
+
+
+        <div class="page2-img">
+            <img src="img/banner-img.png" width="100%" height="100%" alt="">
+        </div>
+
+        <script type="text/javascript">
+            var counter = 1;
+            setInterval(function(){
+                document.getElementById('r' + counter).checked = true;
+                counter++;
+                if(counter > 4){
+                    counter = 1;
+            }    
+            }, 8000);
+        </script>
+
+    </div>   
+
+
+        
+
+
+     <!-- หน้า page3 con2 -->
+
+     <div class="container2">
+        <div class="page3">
+            <div class="page3-img">
+                <img src="img/page3-img1.png" width="50%" height="50%" alt="">
+            </div>
+
+            <div class="page3-info">
+                <p>เล็บคือหนังกำพร้าที่ตายแล้ว อัดแน่นเป็นชั้น ๆ จนแข็ง และโปร่งแสง <br>
+                    <span>คอยปกคลุมบริเวณปลายนิ้วมือ นิ้วเท้า และป้องกันอันตราย</span><br> 
+                    จากการทำกิจกรรมต่าง ๆ ในชีวิตประจำวัน <br> อีกทั้งยังจำเป็นในการช่วยขูด จิก แคะ และแกะให้สามารถทำได้</p>
+            </div>
+
+            <div class="page3-img">
+                <img Id="page3-img2" src="img/page3-img2.png" width="40%" height="40%"  alt="">
+            </div>
+        </div>
+
+
+
+    <!-- หน้า page4 -->
+
+        <div class="page-4" id="page4">
+            <div class="page4-img">
+                <img src="img/page4-img.png" width="50%" height="50%" alt="">
+            </div>
+
+            <div class="page4-info">
+
+                <div class="page4-img2">
+                    <img id="img1" src="img/page4-img2.png" width="50%" height="50%" alt="">
+                    <img src="img/page4-img3.png" width="50%" height="50%" class="img-top" alt="">
+                </div>
+
+               <div class="page4-text">
+                    <p>เล็บที่มีสีออกชมพูจาง ๆ จากสีผิวของเนื้อข้างใต้เล็บ ผิวเล็บเรียบ ผิวหนังรอบเล็บ <br>มีความแข็งแรงไม่ถอยร่น 
+                    และเล็บมีความหนาไม่มาก และไม่น้อยจนเกินไป <br><br><span>หากเล็บมีความแตกต่างไปนอกเหนือจากที่กล่าว<br>อาจเป็นเล็บที่ไม่ปกติ 
+                    และอาจเป็นสัญญาณเตือนของความผิดปกติในร่างกาย</span>
+                    </p>
+                </div>
+            </div>
+        </div> 
+        
+
+
+    <!-- หน้า page5 -->
+        <div class="page5">
+            <div class="page5-img">
+                <img src="img/page5-img.png" width="50%" height="50%" alt="">
+            </div>
+
+            <div class="page5-info">
+                <div class="page5-text">
+                    <p>
+                        <span>อัตราเฉลี่ยในการงอก</span>
+                    </p>
+                </div>
+
+                <div class="page5-text1">
+                    <p>
+                        <span>เล็บมือ </span>จะอยู่ที่ 0.1 มิลลิเมตร/วัน  <br> <span>เล็บเท้า </span>จะยาวช้ากว่าเล็บมือ 3 เท่า
+                    </p>
+                </div>
+
+                <div class="page5-text2">
+                    <p>
+                        <span id="red">ถ้ามีปัญหาสุขภาพ หรือเล็บหลุด</span><br> สำหรับ<span id="red">เล็บมือ</span>เพื่องอกขึ้นเต็มเล็บ จะใช้เวลา 5-6 เดือน <br> 
+                        สำหรับ<span id="red">เล็บเท้า</span>ใช้เวลา 12 เดือนขึ้นไป <br>โดยอายุมากขึ้น การงอกของเล็บจะช้าลง
+                    </p>
+                </div>
+            </div>
+
+            <div class="page5-img2">
+                <img src="img/page5-img2.png" width="20%" height="20%" alt="">
+            </div>
+        </div> 
+
+    </div>
+
+
+   
+    <!-- หน้า page6 con3 -->
+
+    <div class="container3">
+        <div class="page6" id="page6">
+            <div class="page6-img">
+                <img src="img/page6-img.png" width="100%" height="100%" alt="">
+            </div>
+
+            <div class="page6-info">
+                <img src="img/ab.png" width="100%" height="100%" alt="">
+
+                <div class="page6-content3">
+                    <img src="img/ab3.png" width="10%" height="10%"alt="" onclick="location.href='#ab3'">
+                    <span>ผิวหนังรอบเล็บบวมแดง</span>
+                    <div>(paronychia)</div>
+                </div>
+
+                <div class="page6-content4">
+                    <img src="img/ab4.png" width="10%" height="10%"alt="" onclick="location.href='#ab4'">
+                    <span>เล็บเปลี่ยนสี</span>
+                </div>
+
+                <div class="page6-content2">
+                    <img src="img/ab2.png" width="10%" height="10%"alt="" onclick="location.href='#ab2'">
+                    <span>เล็บที่มีพื้นผิวขรุขระ</span>
+                    <div>(abnormal nail surface)</div>
+                </div>
+
+                <div class="page6-content5">
+                    <img src="img/ab5.png" width="10%" height="10%"alt="" onclick="location.href='#ab5'">
+                    <span>ความโค้ง </span>
+                </div>
+
+                <div class="page6-content">
+                    <img src="img/ab1.png" width="10%" height="10%"alt="" onclick="location.href='#ab1'">
+                    <span>ความหนา-บางผิดปกติ</span>
+                    <div>(abnormal nail thickness)</div>
+                </div>
+
+                <div class="page6-content6">
+                    <img src="img/ab6.png" width="10%" height="10%"alt="" onclick="location.href='#ab6'">
+                    <span>การยึดติดของแผ่นเล็บ และฐานเล็บ</span>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="ab1" id="ab1">
+        <div class="ab1-head">
+           <img src="img/ab-head1.png" width="50%" height="50%"alt="">
+        </div>
+
+        <div class="ab1-img">
+            <img src="img/ab1-img.png" width="30%" height="30%" alt=""> 
+        </div>
+
+        <div class="ab1-content">
+            <p>เล็บที่หนามากผิดปกติ มีหลายโรคที่เป็นสาเหตุ เช่น เชื้อราที่เล็บ<br> และโรคสะเก็ดเงิน 
+            <span>โดยโรคสะเก็ดเงินมักจะมีอาการเล็บหนาหลาย ๆ เล็บ</span><br> แตกต่างจากโรคเชื้อราที่มักเป็นไม่กี่เล็บ</p>
+        </div>
+    </div>
+
+    <div class="ab2" id="ab2">
+        <div class="ab2-head">
+           <img src="img/ab-head2.png" width="50%" height="50%"alt="">
+        </div>
+
+        <div class="ab2-img">
+            <div class="ab2-img1">
+                <span onmouseover="document.pic1.src='img/ab2-real.png'"
+                onmouseout="document.pic1.src='img/ab2-img.png'">
+                <img src="img/ab2-real.png" width="70%" height="70%" name='pic1'>
+                </span> 
+
+            </div>
+
+            <div class="ab2-img2">
+                <img src="img/ab2-img2.png" width="70%" height="70%" alt="">
+
+            </div>
+            
+
+            <div class="ab2-img3">
+                <span onmouseover="document.pic2.src='img/ab2-real3.png'"
+                onmouseout="document.pic2.src='img/ab2-img3.png'">
+                <img src="img/ab2-real3.png" width="70%" height="70%" name='pic2'>
+                </span> 
+            </div>
+
+        </div>
+
+        <div class="ab2-content">
+
+            <div class="tabs">
+                <input type="radio" id="tabfree" name="mytabs" checked="checked">
+                <label for="tabfree">เล็บเป็นร่องหรือหลุม<br>(pitting nail)</label>
+                <div class="tab">
+                    อาการที่เล็บมีหลุมเล็ก ๆ กระจายอยู่ทั่วบริเวณบนแผ่นเล็บ<br>เกิดจากความผิดปกติของการสร้างเล็บที่บริเวณโคนเล็บ 
+                    <br>ทำให้<span>ผิวเล็บด้านบนมีลักษณะขรุขระเป็นคลื่นหรือหลุม</span> <br>พบได้ในโรคสะเก็ดเงิน หรือโรคผมร่วงเป็นหย่อม เป็นต้น
+                </div>
+        
+                <input type="radio" id="tabsilver" name="mytabs">
+                <label for="tabsilver">เล็บเปราะ<br>(onychorrhexis)</label>
+                <div class="tab">
+                    เล็บมีร่องเล็ก ๆ ในแนวยาวขนานไปตามความยาวเล็บ<br>อาจเกิดจาก<span>การบาดเจ็บ กระทบกระแทกบริเวณส่วนที่สร้างเล็บ <br>ส่งผลให้แผ่นเล็บบางลง</span>
+                    พบได้ในหลายภาวะ เช่น<br>ฮอร์โมนไทรอยด์ต่ำ โรคไลเคนพลานัสภาวะซีด<br>อายุที่เพิ่มขึ้น เชื้อราที่เล็บ เป็นต้น
+                </div>
+        
+                <input type="radio" id="tabgold" name="mytabs">
+                <label for="tabgold">เล็บเป็นร่องลึกคล้ายคลื่น<br>(Beau’s lines)</label>
+                
+                <div class="tab">
+                    การที่เล็บมีลักษณะเป็นร่องลึกตามแนวขวาง<br>เนื่องจากบริเวณที่ทำหน้าที่ในการสร้างแผ่นเล็บมีการหยุดการทำงานชั่วขณะ<br>ซึ่งเกิดจากการได้รับบาดเจ็บจากการกระแทก 
+                    การใช้ยาบางชนิด<br>หรือจากการเจ็บป่วยรุนแรง <span>ทำให้แผ่นเล็บมีลักษณะเป็นคลื่น</span>
+                </div>
+             </div>
+        </div>
+    </div>    
+
+
+    <div class="ab3" id="ab3">
+        <div class="ab3-head">
+           <img src="img/ab-head3.png" width="50%" height="50%"alt="">
+        </div>
+
+        <div class="ab3-img">
+            <img src="img/ab3-img.png" width="30%" height="30%" alt=""> 
+            <img src="img/ab3-real.png" width="20%" height="20%" alt="" class="img-top2"> 
+        </div>
+
+        <div class="ab3-content">
+            <p>การที่มือของเราสัมผัสกับน้ำ มีความเปียกอับชื้นบ่อย ๆ เช่น ล้างจาน <br>หรือเป็นช่างทำผม จะเกิดการระคายเคืองบริเวณโคนเล็บได้ง่าย<br>และอาจเกิดการอักเสบของโคนเล็บ
+                ทำให้<span>ผิวหนังรอบเล็บหรือจมูกเล็บ<br>มีการเปื่อยยุ่ย บวมแดง</span> หากเป็นต่อเนื่องนาน ๆ อาจเกิดการติดเชื้อราตามมาได้
+               <br><br>นอกจากนี้ บางรายอาจมีการติดเชื้อแบคทีเรียบริเวณผิวหนังส่วนที่อักเสบนี้ <br>ทำให้ผิวหนังรอบเล็บบวมแดงปวดและมีหนองร่วมด้วย 
+            </p>
+        </div>
+    </div> 
+
+
+
+    <div class="ab4" id="ab4">
+        <div class="ab4-head">
+           <img src="img/ab-head4.png" width="40%" height="40%"alt="">
+        </div>
+
+        <div class="ab4-img">
+            <div class="ab4-img1">
+                <span onmouseover="document.pic3.src='img/ab4-real.png'"
+                onmouseout="document.pic3.src='img/ab4-img.png'">
+                <img src="img/ab4-real.png" width="70%" height="70%" name='pic3'>
+                </span> 
+
+            </div>
+
+            <div class="ab4-img2">
+                <img src="img/ab4-img2.png" width="70%" height="70%" alt="">
+            </div>
+
+            <div class="ab4-img3">
+                <img src="img/ab4-img3.png" width="70%" height="70%" alt="">
+
+            </div>
+            
+            <div class="ab4-img4">
+                <span onmouseover="document.pic4.src='img/ab4-real4.png'"
+                onmouseout="document.pic4.src='img/ab4-img4.png'">
+                <img src="img/ab4-real4.png" width="70%" height="70%" name='pic4'>
+                </span> 
+            </div>
+        </div>
+
+        <div class="ab4-content">
+
+            <div class="tabs">
+                <input type="radio" id="black" name="mytabs">
+                <label for="black">เล็บดำ</label>
+                <div class="tab">
+                    เป็นสีของเล็บที่อาจเกิดได้จากหลายสาเหตุ เช่น <span>เนื้องอกผิวหนัง เชื้อรา ไฝ</span><br> 
+                    หรือ<span>อีกภาวะที่พบได้บ่อย คือ ภาวะเลือดออกใต้เล็บ</span><br>
+                    เกิดจากการกระทบกระแทก จะเห็นสีของเลือดเป็นลักษณะสีแดงเข้ม หรือสีม่วง<br>
+                    และมักเกิดขึ้นกะทันหัน บางภาวะสามารถหายได้เอง แต่บางภาวะจำเป็นต้องพบแพทย์
+                </div>
+        
+                <input type="radio" id="white" name="mytabs">
+                <label for="white">เล็บขาว</label>
+                <div class="tab">
+                    เป็นภาวะที่<span>พบบ่อย บางภาวะไม่รุนแรงหายได้เอง<br>
+                    บางภาวะจำเป็นต้องพบแพทย์เพื่อรักษา</span> ตัวอย่างของการเกิดเล็บขาว<br>
+                    เช่น การกระทบกระแทกต่อเล็บ การติดเชื้อราที่เล็บ<br>
+                    โรคทางกายที่เล็บ เช่น โรคไต โรคตับ ภาวะโปรตีนในเลือดต่ำ
+                </div>
+        
+                <input type="radio" id="yellow" name="mytabs">
+                <label for="yellow">เล็บเหลือง </label>
+                
+                <div class="tab">
+                    ที่พบบ่อยเกิดจาก<span>การติดสี หรือสารเคมีเปื้อนจากภายนอก</span><br>
+                    เช่น ในคนที่สูบบุหรี่จัด สารเคมีบางชนิด หรือเกิดขึ้นจากโรคทางกายที่พบน้อยมาก<br>
+                    ที่เรียกว่ากลุ่มอาการเล็บเหลือง (yellow nail syndrome)<br>
+                    ที่มีอาการเจริญเติบโตของเล็บช้าลง ทำให้แผ่นเล็บมีความหนามากกว่าปกติและมีสีเหลือง<br> 
+                    มักจะพบร่วมกับภาวะบวมน้ำเหลือง (lymphedema) ภาวะน้ำในช่องเยื่อหุ้มปอด<br>
+                    โรคถุงลมโป่งพอง โรคหลอดลมอักเสบเรื้อรัง และโรคไซนัสอักเสบ
+                </div>
+
+                <input type="radio" id="green" name="mytabs">
+                <label for="green">เล็บเขียว</label>
+                
+                <div class="tab">
+                    ตัวอย่าง เช่น <span>ภาวะเล็บเขียว (green nail syndrome)<br>
+                    เกิดจากการติดเชื้อแบคทีเรียชนิดหนึ่ง</span><br> 
+                    ซึ่งจะสร้างรงควัตถุที่ให้สีฟ้าหรือน้ำเงิน ทำให้เล็บเปลี่ยนเป็นสีเขียว<br>
+                    สีเขียวปนดำ มักพบในผู้ที่มีประวัติสัมผัสน้ำ หรืออับชื้นนานๆ
+                </div>
+             </div>
+        </div>
+
+    </div>  
+
+
+    <div class="ab5" id="ab5">
+        <div class="ab5-head">
+           <img src="img/ab-head5.png" width="40%" height="40%"alt="">
+        </div>
+
+        <div class="ab5-img">
+            <img src="img/ab5-img.png" width="25%" height="25%" alt=""> 
+        </div>
+
+        <div class="ab5-content">
+            <p>เช่น <span>เล็บเว้าลงจนคล้ายรูปช้อน (spoon nails หรือ koilonychia)</span> <br>
+               คือ การที่แผ่นเล็บมีการแอ่นตัวโดยส่วนด้านข้างมีการยกตัวสูงขึ้นกว่าบริเวณกลางแผ่นเล็บ<br> 
+                เล็บจะมีลักษณะขาวซีด อ่อน แบนบาง และแอ่นคล้ายช้อน<br>
+                พบในภาวะโลหิตจางจากการขาดธาตุเหล็ก</p>
+        </div>
+    </div>
+
+
+    <div class="ab6" id="ab6">
+        <div class="ab6-head">
+           <img src="img/ab-head6.png" width="40%" height="40%"alt="">
+        </div>
+
+        <div class="ab6-img">
+            <img src="img/ab6-img.png" width="25%" height="25%" alt=""> 
+            <img src="img/ab6-real.png" width="25%" height="25%" alt="" class="img-top3"> 
+        </div>
+
+        <div class="ab6-content">
+            <p>ที่พบบ่อยคือ <span>ภาวะเล็บร่อน (onycholysis)</span> <br>
+                โดยปกติเล็บคนเรามักจะติดกับเนื้อใต้เล็บ เห็นเป็นสีชมพูถึงปลายเล็บ<br>
+                จากนั้นจะแยกออกจากเนื้อเห็นเป็นแถบแคบ ๆ สีเหลือง ๆ<br>
+                โดยหากมีภาวะบางอย่าง เช่น สะเก็ดเงิน ไทรอยด์ โรคเชื้อราที่เล็บ<br>
+                โรคผื่นผิวหนังอักเสบ การกระทบกระแทก รวมถึงการใช้ยาบางชนิด <br>
+                ส่วนปลายเล็บจะเห็นแยกเป็นสีเหลืองๆกว้างกว่าปกติ ส่งผลให้เกิดโพรงอากาศใต้เล็บ
+            </p>
+        </div>
+    </div>
+
+
+
+    <!-- หน้า Rok con4 -->
+
+
+    <div class="container4">
+        <div class="rok" id="rok">
+
+            <div class="rok-info" id="rok">
+                <img src="img/rok.png" width="100%" height="100%" alt="">
+
+                <div class="rok-content3">
+                    <img src="img/rok3.png" width="10%" height="10%" onclick="location.href='#rok3'" alt="">
+                    <span>การกระทบกระแทกซ้ำๆต่อเล็บ</span>
+                    <div>(traumatic nail)</div>
+                </div>
+
+                <div class="rok-content5">
+                    <img src="img/rok5.png" width="10%" height="10%" onclick="location.href='#rok5'" alt="">
+                    <span>ความผิดปกติอื่นๆของเล็บ</span>
+                </div>
+
+                <div class="rok-content2">
+                    <img src="img/rok2.png" width="10%" height="10%" onclick="location.href='#rok2'" alt="">
+                    <span>เล็บขบ</span>
+                    <div>(ingrown toenail)</div>
+                </div>
+
+                <div class="rok-content4">
+                    <img src="img/rok4.png" width="10%" height="10%" onclick="location.href='#rok4'" alt="">
+                    <span>เล็บแตกหักในผู้สูงวัย</span>
+                    <div>(brittle nail)</div>
+                </div>
+
+                <div class="rok-content">
+                    <img src="img/rok1.png" width="10%" height="10%" onclick="location.href='#rok1'" alt="">
+                    <span>โรคเชื้อราที่เล็บ </span>
+                    <div>(onychomycosis)</div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="rok1" id="rok1">
+        <div class="rok1-head">
+           <img src="img/rok-head1.png" width="50%" height="50%"alt="">
+        </div>
+
+        <div class="rok1-img">
+            <img src="img/rok1-img.png" width="25%" height="25%" alt="">
+            <img src="img/rok1-real.png" width="25%" height="25%" alt="" class="img-top4">  
+        </div>
+
+        <div class="rok1-content">
+            <p>คือ การติดเชื้อราที่เล็บ โดยสามารถตรวจพบได้ด้วยการตรวจทางห้องปฏิบัติการ<br>
+                เช่น การตรวจด้วยกล้องจุลทรรศน์หรือการเพาะเชื้อรา <span>เล็บเท้าจะพบได้บ่อยกว่าเล็บมือ<br>
+                และเป็นโรคที่พบได้บ่อยในผู้ใหญ่มากกว่าเด็ก</span> โดยเฉพาะในผู้สูงอายุที่อาจมีโรคร่วมอื่น ๆ 
+            <br><br>
+            โดยจำนวนของเล็บที่มีการเปลี่ยนแปลงจะพบไม่มาก มีเพียงประมาณ 1 – 3 เล็บ <br>โดยเล็บที่ติดเชื้ออาจพบลักษณะ<span>หนาตัวขึ้น
+            มีขุยหนาใต้เล็บ มีสีเล็บที่เปลี่ยนแปลงไป</span><br>หรือเล็บที่แยกตัวออกมาจากฐานเล็บ อาจเห็นเป็นโพรงหรือช่องว่างใต้เล็บ<br>
+            โรคเชื้อราที่เล็บโดยส่วนใหญ่แล้วมักจะไม่มีอาการ บางรายรอบเล็บบวมแดงร่วมด้วย<br>โดยเฉพาะบริเวณนิ้วมือที่ต้องโดนน้ำบ่อย ๆ 
+            </p>
+        </div>
+    </div>
+
+    <div class="rok2" id="rok2">
+        <div class="rok2-head">
+           <img src="img/rok-head2.png" width="50%" height="50%"alt="">
+        </div>
+
+        <div class="rok2-img">
+            <img src="img/rok2-img.png" width="25%" height="25%" alt=""> 
+        </div>
+
+        <div class="rok2-content">
+            <p>สาเหตุที่พบได้บ่อย<span>เกิดจากการตัดเล็บสั้นเกินไป ใส่ถุงเท้า หรือรองเท้าที่คับเกินไป</span><br>
+                จนไปกดเล็บเท้าเล็บขบ ยังมีสาเหตุมาจากการบาดเจ็บที่เกิดขึ้นกับนิ้วเท้า เช่น <br>
+                มีสิ่งของที่มีน้ำหนักมากตกใส่เท้า หรือมีเล็บเท้าที่มีรูปร่างโค้งผิดปกติ
+
+            <br><br>
+            อาจทำให้เกิดอาการ<span>เจ็บ บวมแดงบริเวณนิ้วเท้ารอบ ๆ เล็บเท้า อาจมีเลือดออก<br>
+            หรือเกิดการติดเชื้อของเนื้อเยื่อที่นิ้วเท้าจนเป็นหนองได้</span> หากอาการรุนแรง<br>
+            ควรรีบไปพบแพทย์เพื่อทำการรักษา โดยเฉพาะผู้ที่เป็นโรคเบาหวาน<br>
+            หรือมีปัญหาการหมุนเวียนเลือดไปที่เท้า มีอาการชาที่เท้าหรือมีภาวะแผลหายช้า  
+            </p>
+        </div>
+    </div>
+
+    <div class="rok3" id="rok3">
+        <div class="rok3-head">
+           <img src="img/rok-head3.png" width="50%" height="50%"alt="">
+        </div>
+
+        <div class="rok3-img">
+            <img src="img/rok3-img.png" width="25%" height="25%" alt="">
+            <img src="img/rok3-real.png" width="25%" height="25%" alt="" class="img-top5">   
+        </div>
+
+        <div class="rok3-content">
+            <p>มักพบในผู้ที่มีการกระทบกระแทกบริเวณเล็บบ่อย ๆ<br>
+                หากเป็นที่เล็บเท้าอาจเกิดจากการใส่รองเท้าที่ไม่เหมาะสม<br>
+                <span>การกระแทกน้ำหนักตัวลงไปบริเวณเท้าบ่อย ๆ เช่น นักวิ่ง</span> <br>
+                หรือเกิดจากความผิดปกติโดยกำเนิดของเท้าได้
+
+            <br><br>
+            ลักษณะที่พบบ่อย เช่น <span>เล็บเปลี่ยนสีมีจุดดำ ปื้นดำ อันเกิดจากเลือดออก<br>
+            ซึ่งบางครั้งก็เป็นจุดเล็ก ๆ บางครั้งก็มีอาการห้อเลือด</span><br>
+            เลือดที่ออกจะเกิดทั้งเท้าและเล็บเท้า คล้ายรอยโรคสีดำที่เกิดจากเม็ดสี<br>
+            การกระทบกระแทก ยังทำให้เกิดการเปลี่ยนแปลงลักษณะของผิวเล็บ<br>
+            ตั้งแต่เป็นร่องผิวไม่เรียบ เล็บเปลี่ยนสี หรือแม้กระทั่งเล็บหลุด<br>
+            บางรายพบเป็นตุ่มน้ำพองจากการถูไถเสียบสีกับรองเท้า<br>
+            บางรายเกิดเป็นแผลมีตาปลาที่ลักษณะเป็นปื้นแข็งนูน<br>
+            บริเวณส่วนที่รับแรงกระแทก บางรายอาจเกิดการติดเชื้อราที่เท้าตามมา
+            </p>
+        </div>
+    </div>
+
+    <div class="rok4" id="rok4">
+        <div class="rok4-head">
+           <img src="img/rok-head4.png" width="50%" height="50%"alt="">
+        </div>
+
+        <div class="rok4-img">
+            <img src="img/rok4-img.png" width="25%" height="25%" alt=""> 
+        </div>
+
+        <div class="rok4-content">
+            <p>ในคนสูงอายุอาจมีเล็บที่บางและเปราะแตกง่ายบริเวณปลายเล็บ<br>
+                ผู้ป่วยจะรู้สึกว่า <span>เล็บฉีก เปราะ และหักง่าย</span> เล็บจะเป็นเส้นที่ขนาน ๆ กัน<br>
+                ดูเป็นระเบียบ และเป็นเหมือน ๆ กันแทบทุกเล็บ บางทีเล็บก็จะโค้งไปตามอายุด้วย<br>
+                ซึ่งเมื่อเป็นมาก ๆ เล็บจะจิกไปในเนื้อได้ง่ายขึ้น และอาจเกิดช่องใต้เล็บขึ้นมา<br>
+                ซึ่งทำให้เชื้อโรคต่าง ๆ เข้าได้ง่ายขึ้น
+            </p>
+        </div>
+    </div>
+
+
+    <div class="rok5" id="rok5">
+        <div class="rok5-head">
+           <img src="img/rok-head5.png" width="40%" height="40%"alt="">
+        </div>
+
+        <div class="rok5-img">
+            <div class="rok5-img1">
+                <span onmouseover="document.pic5.src='img/rok5-real.png'"
+                onmouseout="document.pic5.src='img/rok5-img.png'">
+                <img src="img/rok5-real.png" width="50%" height="50%" name='pic5'>
+                </span> 
+            </div>
+
+            <div class="rok5-img2">
+                <img src="img/rok5-img2.png" width="50%" height="50%" alt="">
+
+            </div>
+            
+        </div>
+
+        <div class="rok5-content">
+
+            <div class="tabs">
+                <input type="radio" id="accessory" name="mytabs">
+                <label for="accessory">ภาวะเล็บน้อยแทรกอยู่ที่นิ้วก้อย<br>(accessory nail)</label>
+                <div class="tab">
+                    เป็นลักษณะเฉพาะด้านกายภาพของนิ้วก้อยเท้า อาจพบได้ในบางเชื้อชาติในเอเชีย<br>
+                    ข้างที่มี<span>การแยกของเล็บเท้าบริเวณฝั่งนอกของนิ้วก้อยปกติกลายเป็นเล็บที่หก</span><br>
+                    ลักษณะเฉพาะนี้ สามารถสังเกตเห็นได้บนเท้าข้างใดข้างหนึ่ง หรือทั้งสองข้าง<br>
+                    เล็บที่เพิ่มขึ้นมานี้ สามารถตัดออกได้ด้วยกรรไกรตัดเล็บเช่นเดียวกับเล็บอื่น ๆ
+                </div>
+        
+                <input type="radio" id="leuko" name="mytabs">
+                <label for="leuko">จุดขาวที่เล็บ หรือดอกเล็บ<br>(leukonychia)</label>
+                <div class="tab">
+                    จุดสีขาว ๆ ที่เกิดขึ้นบนเล็บ <span>ลักษณะของดอกเล็บ<br>
+                    สามารถบ่งบอกสุขภาพร่างกายได้</span> ซึ่งดอกเล็บจะมีลักษณะที่แตกต่างกันออกไป
+                </div>
+             </div>
+        </div>
+    </div>    
+
+    <footer>
+        <div class="left">
+            <img src="img/logo.png" width="10%" height="25%" alt="">
+            <p><br><span id="name">ผู้จัดทำ</span><br>
+                บุณยวีร์ พฤษาเกษมสุข<br>
+                พนัชกร จันทบูลย์<br><br>
+                คณะแพทยศาสตร์ศิริราชพยาบาล<br>
+                สาขาวิชาเทคโนโลยีการศึกษาแพทยศาสตร์ มหาวิทยาลัยมหิดล
+            </p>            
+        </div>
+
+        <div class="right">
+            <img src="img/logo-mu.png" width="20%" height="30%" alt="">
+
+            <p><br><span id="thank">ขอบคุณ</span><br>
+                ผศ.นพ.สุมนัส บุณยะรัตเวช<br>
+                พญ.ศุภิสรา วงศ์ดามา<br>
+                พญ.สุทัศนี ประเสริฐสุข<br><br>
+                คลินิกเชื้อราที่เล็บ และโรคเล็บ ภาควิชาตจวิทยา<br>
+                โรงพยาบาลศิริราชพยาบาล
+            </p>            
+        </div>
+    </footer>
+
+
+    <img src="img/top1.png" onclick="topFunction()" id="myBtn" title="Go to top" width="2.5%" height="5%" alt="">
+
+    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
+    
+    <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+
+
+</body>
+
+
+
+</html>

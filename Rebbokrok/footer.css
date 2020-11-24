@@ -1,0 +1,33 @@
+footer{
+    width: 100%;
+    height: auto;
+    background-color:#F5E0CD;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+
+.right{
+    text-align: end;
+}
+
+footer p{
+    color: #563C29;
+    font-size: 1vw;
+}
+
+
+footer #thank{
+    color:  #F05A24;
+    font-size: 1.2vw;
+}
+
+footer #name{
+    color:  #F05A24;
+    font-size: 1.2vw;
+}
+
+.left{
+    margin-top: 1.5%;
+}
